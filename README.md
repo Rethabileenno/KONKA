@@ -1,2 +1,0 @@
-# KONKA
-Ticket station 
