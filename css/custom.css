@@ -5,4 +5,51 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
+/* menu items */
+.menu-link {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 27px;
+}
 
+/* button on header */
+.primary-menu a {
+  color: black;
+}
+.primary-menu a:hover {
+  color: black;
+}
+.red-letter {
+  color: red !important;
+}
+.gradient-text {
+  font-size: 30px;
+}
+.display-4,
+.font-body,
+.text-white-50 {
+  color: black !important;
+}
+.display-4 {
+  font-weight: 200;
+  line-height: 140px;
+}
+.custom-button {
+  color: black;
+}
+.container .button:hover {
+  color: black;
+}
+.d-block {
+  margin-bottom: 40px;
+}
+
+.text-center,
+.widget_links,
+.widget_links a {
+  color: black !important;
+}
+
+.copyright-links a {
+  color: red;
+}
