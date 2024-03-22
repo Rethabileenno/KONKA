@@ -9,6 +9,7 @@
 .menu-link {
   font-size: 19px;
   font-weight: 500;
+  line-height: 27px;
 }
 
 /* button on header */
@@ -17,4 +18,19 @@
 }
 .primary-menu a:hover {
   color: black;
+}
+.red-letter {
+  color: red !important;
+}
+.gradient-text {
+  font-size: 30px;
+}
+.display-4,
+.font-body,
+.text-white-50 {
+  color: black !important;
+}
+.display-4 {
+  font-weight: 200;
+  line-height: 140px;
 }
