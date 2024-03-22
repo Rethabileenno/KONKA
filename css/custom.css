@@ -49,3 +49,7 @@
 .widget_links a {
   color: black !important;
 }
+
+.copyright-links a {
+  color: red;
+}
