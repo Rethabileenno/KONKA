@@ -5,4 +5,16 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
+/* menu items */
+.menu-link {
+  font-size: 19px;
+  font-weight: 500;
+}
 
+/* button on header */
+.primary-menu a {
+  color: black;
+}
+.primary-menu a:hover {
+  color: black;
+}
