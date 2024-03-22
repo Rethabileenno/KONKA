@@ -4,16 +4,12 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
     <meta name="author" content="SemiColonWeb" />
-    <meta
-      name="description"
-      content="Get Canvas to build powerful websites easily with the Highly Customizable &amp; Best Selling Bootstrap Template, today."
-    />
 
     <!-- Font Imports -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap"
       rel="stylesheet"
     />
 
@@ -24,7 +20,7 @@
     <link rel="stylesheet" href="css/font-icons.css" />
 
     <!-- Niche Demos -->
-    <link rel="stylesheet" href="demos/conference/conference.css" />
+    <link rel="stylesheet" href="demos/conference.css" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css" />
@@ -49,32 +45,6 @@
         <div id="header-wrap">
           <div class="container">
             <div class="header-row justify-content-lg-between">
-              <!-- Logo
-						============================================= -->
-              <div id="logo" class="me-lg-0">
-                <a href="demo-conference.html" data-scrollto="#slider">
-                  <img
-                    class="logo-default"
-                    srcset="
-					https://assets-global.website-files.com/64242075edd6a813c8687d5c/652fc39d35f89d4e02e7cdf5_Layer%205.webp,
-					https://assets-global.website-files.com/64242075edd6a813c8687d5c/652fc39d35f89d4e02e7cdf5_Layer%205.webp 2x
-                    "
-                    src="https://assets-global.website-files.com/64242075edd6a813c8687d5c/652fc39d35f89d4e02e7cdf5_Layer%205.webp"
-                    alt="kONKA Logo"
-                  />
-                  <img
-                    class="logo-dark"
-                    srcset="
-					https://assets-global.website-files.com/64242075edd6a813c8687d5c/652fc39d35f89d4e02e7cdf5_Layer%205.webp,
-					https://assets-global.website-files.com/64242075edd6a813c8687d5c/652fc39d35f89d4e02e7cdf5_Layer%205.webp 2x
-                    "
-                    src="https://assets-global.website-files.com/64242075edd6a813c8687d5c/652fc39d35f89d4e02e7cdf5_Layer%205.webp"
-                    alt="kONKA Logo"
-                  />
-                </a>
-              </div>
-              <!-- #logo end -->
-
               <div class="primary-menu-trigger">
                 <button
                   class="cnvs-hamburger"
@@ -117,7 +87,7 @@
                       class="menu-link ls-1 text-uppercase"
                       href="#"
                       data-href="#section-schedule"
-                      ><div>BOOK TABLE </div></a
+                      ><div>BOOK TABLE</div></a
                     >
                   </li>
                   <li class="menu-item">
@@ -176,24 +146,30 @@
       <section
         id="slider"
         class="slider-element min-vh-60 min-vh-md-100 include-header"
-     style=" 
-    position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
-">
+        style="
+          position: relative;
+          background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
+        "
+      >
+        <video
+          autoplay
+          muted
+          loop
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          "
+        >
+          <source
+            src="https://assets-global.website-files.com/64242075edd6a813c8687d5c/651e7bccfcd53f7e351655f6_KONKA%202022-10-16_2-transcode.mp4"
+            type="video/mp4"
+          />
+        </video>
 
-    <video autoplay muted loop style="
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    ">
-        <source src="https://assets-global.website-files.com/64242075edd6a813c8687d5c/651e7bccfcd53f7e351655f6_KONKA%202022-10-16_2-transcode.mp4" type="video/mp4">
-    </video>
-	
->
-     
         <div class="slider-inner">
           <div class="vertical-middle">
             <div class="container dark py-5 py-md-0">
@@ -204,7 +180,7 @@
                   data-300="transform: translateY(50px); opacity: 0"
                 >
                   <h2 class="fw-bold display-2 mb-0">
-                   KONKA MOTSWAKO WEEKEND 
+                    K<span class="red-letter">O</span>NKA MOTSWAKO WEEKEND
                   </h2>
                 </div>
                 <div
@@ -215,7 +191,7 @@
                   <div class="mt-auto">
                     <h2 class="mb-2 gradient-text">DECEMBER 26-29, 2024</h2>
                     <h4 class="fw-normal">
-                      16 Valley, Soweto 600<br />Johannesburg 
+                      16 Valley, Soweto 600<br />Johannesburg
                     </h4>
                     <a
                       href="#section-tickets"
@@ -234,7 +210,7 @@
 
       <!-- Content
 		============================================= -->
-      <section id="content" style="background-color: #000">
+      <section id="content" style="background-color: #f1f0e8">
         <div class="content-wrap pt-0" style="overflow: visible">
           <!-- Section About
 				============================================= -->
@@ -253,14 +229,21 @@
 
               <div class="row justify-content-around dark">
                 <div class="col-md-6">
-                  <h4 class="font-body ls-1 text-uppercase">there comes a weekend that holds a special place in the hearts of many</h4>
+                  <h4 class="font-body ls-1 text-uppercase">
+                    Yes Wena! There comes a weekend that holds a special place
+                    in the hearts of many & we want you to be a part of it !
+                  </h4>
                   <p class="text-white-50">
-                    KONKA MOTSWAKO WEEKEND  is a kaleidoscope of experiences, offering something for everyone. Music
-					 lovers sway to the rhythm of live performances, their spirits lifted by melodies that resonate deep within. 
-					 Food enthusiasts embark on culinary adventures, savoring exotic flavors and indulging in gastronomic delights.
-					  Artisans showcase their craft, their creations serving as testaments to creativity and skill.
+                    KONKA MOTSWAKO WEEKEND is the place to be ! who wouldn't
+                    want a kaleidoscope of experiences, offering something for
+                    everyone. Music lovers sway to the rhythm of Kabza , Your
+                    spirits lifted by melodies that resonate deep within. Food
+                    enthusiasts shall embark on culinary adventures, savoring
+                    exotic flavors and indulging in gastronomic delights. local
+                    Artisans showcasing their craft, their creations serving as
+                    testaments to creativity and skill . MOJA!
                   </p>
-                 
+
                   <div class="row mt-5">
                     <div class="col-6 col-sm-3">
                       <div class="counter gradient-text">
@@ -271,7 +254,7 @@
                           data-speed="400"
                         ></span>
                       </div>
-                      <h5 class="font-body">Day Event</h5>
+                      <h5 class="font-body">Day Splash</h5>
                     </div>
 
                     <div class="col-6 col-sm-3">
@@ -287,18 +270,29 @@
                       <h5 class="font-body">Artists</h5>
                     </div>
 
-
                     <div class="col-6 col-sm-3">
                       <div class="counter gradient-text">
                         <span
                           data-from="100"
-                          data-to="1000"
+                          data-to="5000"
                           data-refresh-interval="50"
                           data-speed="1500"
                         ></span
                         >+
                       </div>
-                      <h5 class="font-body">Participants</h5>
+                      <h5 class="font-body">Seats</h5>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <div class="counter gradient-text">
+                        <span
+                          data-from="100"
+                          data-to="50"
+                          data-refresh-interval="2"
+                          data-speed="600"
+                        ></span
+                        >+
+                      </div>
+                      <h5 class="font-body">VVIP</h5>
                     </div>
                   </div>
                 </div>
@@ -345,58 +339,55 @@
                 >
                 <a
                   href="#"
-                  class="button ls-1 text-uppercase fw-semibold button-effect m-0"
+                  class="button ls-1 text-uppercasefw-semibold button-effect custom-button m-0"
                   >See All Artists</a
                 >
               </div>
               <div class="row mx-auto dark" style="max-width: 1000px">
+                <a href="#" class="team col-lg-4 col-sm-6 mb-5">
+                  <div class="team-image">
+                    <img
+                      src="https://mzansiprofiles.co.za/wp-content/uploads/2023/04/Lamiez-Holworthy-.jpg"
+                      alt="Lamiz"
+                    />
+                  </div>
+                  <div class="team-desc">
+                    <div class="team-title">
+                      <h4 class="gradient-text">Dj Lamiez-Holworthy</h4>
+                      <!-- <span>Software Designer</span> -->
+                    </div>
+                  </div>
+                </a>
 
-				<a href="#" class="team col-lg-4 col-sm-6 mb-5">
-					<div class="team-image">
-					  <img
-						src="https://mzansiprofiles.co.za/wp-content/uploads/2023/04/Lamiez-Holworthy-.jpg"
-						alt="Lamiz"
-					  />
-					</div>
-					<div class="team-desc">
-					  <div class="team-title">
-						<h4 class="gradient-text">Dj Lamiez-Holworthy</h4>
-						<!-- <span>Software Designer</span> -->
-					  </div>
-					</div>
-				  </a>
+                <a href="#" class="team col-lg-4 col-sm-6 mb-5">
+                  <div class="team-image">
+                    <img
+                      src="https://www.entertainment-online.co.za/images/oskido_01.jpg"
+                      alt="Oskido"
+                    />
+                  </div>
+                  <div class="team-desc">
+                    <div class="team-title">
+                      <h4 class="gradient-text">Dj Oskido</h4>
+                      <!-- <span>Software Designer</span> -->
+                    </div>
+                  </div>
+                </a>
 
-
-				  <a href="#" class="team col-lg-4 col-sm-6 mb-5">
-					<div class="team-image">
-					  <img
-						src="https://www.entertainment-online.co.za/images/oskido_01.jpg"
-						alt="Oskido"
-					  />
-					</div>
-					<div class="team-desc">
-					  <div class="team-title">
-						<h4 class="gradient-text">Dj Oskido</h4>
-						<!-- <span>Software Designer</span> -->
-					  </div>
-					</div>
-				  </a>
-
-
-				  <a href="#" class="team col-lg-4 col-sm-6 mb-5">
-					<div class="team-image">
-					  <img
-						src="https://i.scdn.co/image/ab6761610000e5eb9f4ce948decb16a7a31039d2"
-						alt="waffles"
-					  />
-					</div>
-					<div class="team-desc">
-					  <div class="team-title">
-						<h4 class="gradient-text">Uncle Waffles</h4>
-						<!-- <span>Software Designer</span> -->
-					  </div>
-					</div>
-				  </a>
+                <a href="#" class="team col-lg-4 col-sm-6 mb-5">
+                  <div class="team-image">
+                    <img
+                      src="https://i.scdn.co/image/ab6761610000e5eb9f4ce948decb16a7a31039d2"
+                      alt="waffles"
+                    />
+                  </div>
+                  <div class="team-desc">
+                    <div class="team-title">
+                      <h4 class="gradient-text">Uncle Waffles</h4>
+                      <!-- <span>Software Designer</span> -->
+                    </div>
+                  </div>
+                </a>
 
                 <a href="#" class="team col-lg-4 col-sm-6 mb-5">
                   <div class="team-image">
@@ -422,7 +413,7 @@
                   </div>
                   <div class="team-desc">
                     <div class="team-title">
-                      <h4 class="gradient-text">Kabza De Small </h4>
+                      <h4 class="gradient-text">Kabza De Small</h4>
                       <!-- <span>Canvas Business</span> -->
                     </div>
                   </div>
@@ -574,7 +565,8 @@
                       aria-controls="canvas-tab-1"
                       aria-selected="true"
                     >
-                      26th <span class="d-none d-md-inline-block">December</span>
+                      26th
+                      <span class="d-none d-md-inline-block">December</span>
                     </button>
                   </li>
                   <li class="nav-item" role="presentation">
@@ -588,9 +580,9 @@
                       aria-controls="canvas-tab-2"
                       aria-selected="false"
                     >
-                      27th <span class="d-none d-md-inline-block">December</span>
+                      27th
+                      <span class="d-none d-md-inline-block">December</span>
                     </button>
-
                   </li>
 
                   <li class="nav-item" role="presentation">
@@ -604,13 +596,12 @@
                       aria-controls="canvas-tab-3"
                       aria-selected="false"
                     >
-                      28th <span class="d-none d-md-inline-block">December</span>
+                      28th
+                      <span class="d-none d-md-inline-block">December</span>
                     </button>
                   </li>
 
-
-
-				  <li class="nav-item" role="presentation">
+                  <li class="nav-item" role="presentation">
                     <button
                       class="nav-link"
                       id="canvas-tab-4"
@@ -621,37 +612,13 @@
                       aria-controls="canvas-tab-4"
                       aria-selected="false"
                     >
-                      29th <span class="d-none d-md-inline-block">December</span>
-                    </button>
-                  </li>
-				  
-                </ul>
-
-
-				>
-                      28th <span class="d-none d-md-inline-block">December</span>
-                    </button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button
-                      class="nav-link"
-                      id="canvas-tab-3"
-                      data-bs-toggle="pill"
-                      data-bs-target="#tabs-3"
-                      type="button"
-                      role="tab"
-                      aria-controls="canvas-tab-3"
-                      aria-selected="false"
-                    >
-                      29th <span class="d-none d-md-inline-block">December</span>
+                      29th
+                      <span class="d-none d-md-inline-block">December</span>
                     </button>
                   </li>
                 </ul>
+
                 <div id="canvas-tab-alt-content" class="tab-content">
-
-
-
-					
                   <div
                     class="tab-pane fade show active"
                     id="tabs-1"
@@ -661,45 +628,53 @@
                   >
                     <dl class="row dark mb-0">
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">15:00PM - 19:00PM</div>
+                        <div class="schedule-time font-primary">
+                          15:00PM - 19:00PM
+                        </div>
                       </dt>
                       <dd class="col-sm-9">
                         <div class="schedule-desc">
-                         GATES OPENING AND ARRIVAL 
+                          GATES OPENING AND ARRIVAL
                         </div>
                       </dd>
 
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">19:00PM - 21:00PM</div>
+                        <div class="schedule-time font-primary">
+                          19:00PM - 21:00PM
+                        </div>
                       </dt>
                       <dd class="col-sm-9">
                         <div class="schedule-desc">
-                        DJ LENYORA AND DJ THABO<small
-                            >- Local Djs</small
-                          >
+                          DJ LENYORA AND DJ THABO<small>- Local Djs</small>
                         </div>
                       </dd>
 
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">21:00pm - 22:00pm </div>
+                        <div class="schedule-time font-primary">
+                          21:00pm - 22:00pm
+                        </div>
                       </dt>
                       <dd class="col-sm-9">
                         <div class="schedule-desc">
-                         DJ LAMIEZ-HOLWORTHY<small>- National</small>
+                          DJ LAMIEZ-HOLWORTHY<small>- National</small>
                         </div>
                       </dd>
 
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">22:00PM - 23:00PM</div>
+                        <div class="schedule-time font-primary">
+                          22:00PM - 23:00PM
+                        </div>
                       </dt>
                       <dd class="col-sm-9">
                         <div class="schedule-desc">
-                        DJ OSKIDO<small>- National</small>
+                          DJ OSKIDO<small>- National</small>
                         </div>
                       </dd>
 
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">23:00PM - 00:00AM </div>
+                        <div class="schedule-time font-primary">
+                          23:00PM - 00:00AM
+                        </div>
                       </dt>
                       <dd class="col-sm-9">
                         <div class="schedule-desc">
@@ -708,17 +683,18 @@
                       </dd>
 
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">00:00AM - 01:00AM </div>
+                        <div class="schedule-time font-primary">
+                          00:00AM - 01:00AM
+                        </div>
                       </dt>
                       <dd class="col-sm-9">
                         <div class="schedule-desc">
-							UNCLE WAFFLES<small>- National</small>
+                          UNCLE WAFFLES<small>- National</small>
                         </div>
                       </dd>
                     </dl>
                   </div>
                   <div
-
                     class="tab-pane fade"
                     id="tabs-2"
                     role="tabpanel"
@@ -727,14 +703,18 @@
                   >
                     <dl class="row dark mb-0">
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">15:00PM - 19:00PM</div>
+                        <div class="schedule-time font-primary">
+                          15:00PM - 19:00PM
+                        </div>
                       </dt>
                       <dd class="col-sm-9">
-                        <div class="schedule-desc">GATES OPEN AND ARRIVAL </div>
+                        <div class="schedule-desc">GATES OPEN AND ARRIVAL</div>
                       </dd>
 
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">19:00PM - 21:00PM</div>
+                        <div class="schedule-time font-primary">
+                          19:00PM - 21:00PM
+                        </div>
                       </dt>
                       <dd class="col-sm-9">
                         <div class="schedule-desc">
@@ -743,122 +723,124 @@
                       </dd>
 
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">21:00PM - 22:00PM</div>
+                        <div class="schedule-time font-primary">
+                          21:00PM - 22:00PM
+                        </div>
                       </dt>
                       <dd class="col-sm-9">
                         <div class="schedule-desc">
-                         DJ ZINTLE<small
-                            >- National</small
-                          >
+                          DJ ZINTLE<small>- National</small>
                         </div>
                       </dd>
 
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">22:00PM - 23:00PM</div>
+                        <div class="schedule-time font-primary">
+                          22:00PM - 23:00PM
+                        </div>
                       </dt>
                       <dd class="col-sm-9">
                         <div class="schedule-desc">
-                   OSCAR MBO<small>- National</small>
+                          OSCAR MBO<small>- National</small>
                         </div>
                       </dd>
 
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">23:00PM - 00:00AM</div>
+                        <div class="schedule-time font-primary">
+                          23:00PM - 00:00AM
+                        </div>
                       </dt>
                       <dd class="col-sm-9">
                         <div class="schedule-desc">
-                         DJ MANDEEP<small
-                            >- Local</small
-                          >
+                          DJ MANDEEP<small>- Local</small>
                         </div>
                       </dd>
 
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">00:00AM - 01:00AM</div>
+                        <div class="schedule-time font-primary">
+                          00:00AM - 01:00AM
+                        </div>
                       </dt>
                       <dd class="col-sm-9">
                         <div class="schedule-desc">
-                     KABZA DE SMALL <small
-                            >-National</small
-                          >
+                          KABZA DE SMALL <small>-National</small>
                         </div>
                       </dd>
                     </dl>
                   </div>
                   <div
+                    class="tab-pane fade"
+                    id="tabs-3"
+                    role="tabpanel"
+                    aria-labelledby="canvas-tabs-3-tab"
+                    tabindex="0"
+                  >
+                    <dl class="row dark mb-0">
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">
+                          15:00PM - 19:00PM
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9">
+                        <div class="schedule-desc">GATES OPEN AND ARRIVAL</div>
+                      </dd>
 
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">
+                          19:00PM - 21:00PM
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9">
+                        <div class="schedule-desc">
+                          DJ SPANKY<small>- Local</small>
+                        </div>
+                      </dd>
 
-				  class="tab-pane fade"
-				  id="tabs-3"
-				  role="tabpanel"
-				  aria-labelledby="canvas-tabs-3-tab"
-				  tabindex="0"
-				>
-				  <dl class="row dark mb-0">
-					<dt class="col-sm-3">
-					  <div class="schedule-time font-primary">15:00PM - 19:00PM</div>
-					</dt>
-					<dd class="col-sm-9">
-					  <div class="schedule-desc">GATES OPEN AND ARRIVAL </div>
-					</dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">
+                          21:00PM - 22:00PM
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9">
+                        <div class="schedule-desc">
+                          DJ MAPHORISA<small>- National</small>
+                        </div>
+                      </dd>
 
-					<dt class="col-sm-3">
-					  <div class="schedule-time font-primary">19:00PM - 21:00PM</div>
-					</dt>
-					<dd class="col-sm-9">
-					  <div class="schedule-desc">
-						DJ SPANKY<small>- Local</small>
-					  </div>
-					</dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">
+                          22:00PM - 23:00PM
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9">
+                        <div class="schedule-desc">
+                          KHULI CHANA<small>- National</small>
+                        </div>
+                      </dd>
 
-					<dt class="col-sm-3">
-					  <div class="schedule-time font-primary">21:00PM - 22:00PM</div>
-					</dt>
-					<dd class="col-sm-9">
-					  <div class="schedule-desc">
-					   DJ MAPHORISA<small
-						  >- National</small
-						>
-					  </div>
-					</dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">
+                          23:00PM - 00:00AM
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9">
+                        <div class="schedule-desc">
+                          DJ MANDEEP<small>- Local</small>
+                        </div>
+                      </dd>
 
-					<dt class="col-sm-3">
-					  <div class="schedule-time font-primary">22:00PM - 23:00PM</div>
-					</dt>
-					<dd class="col-sm-9">
-					  <div class="schedule-desc">
-				 KHULI CHANA<small>- National</small>
-					  </div>
-					</dd>
-
-					<dt class="col-sm-3">
-					  <div class="schedule-time font-primary">23:00PM - 00:00AM</div>
-					</dt>
-					<dd class="col-sm-9">
-					  <div class="schedule-desc">
-					   DJ MANDEEP<small
-						  >- Local</small
-						>
-					  </div>
-					</dd>
-
-					<dt class="col-sm-3">
-					  <div class="schedule-time font-primary">00:00AM - 01:00AM</div>
-					</dt>
-					<dd class="col-sm-9">
-					  <div class="schedule-desc">
-				   BLACK COFFEE <small
-						  >-National</small
-						>
-					  </div>
-					</dd>
-				  </dl>
-				</div>
-				<div
-
-
-
-
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">
+                          00:00AM - 01:00AM
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9">
+                        <div class="schedule-desc">
+                          BLACK COFFEE <small>-National</small>
+                        </div>
+                      </dd>
+                    </dl>
+                  </div>
+                  <div
                     class="tab-pane fade"
                     id="tabs-4"
                     role="tabpanel"
@@ -867,38 +849,40 @@
                   >
                     <dl class="row dark mb-0">
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">15:00PM - 19:00PM</div>
+                        <div class="schedule-time font-primary">
+                          15:00PM - 19:00PM
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9">
+                        <div class="schedule-desc">GATES OPEN AND ARRIVAL</div>
+                      </dd>
+
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">
+                          19:00PM - 21:00PM
+                        </div>
                       </dt>
                       <dd class="col-sm-9">
                         <div class="schedule-desc">
-                          GATES OPEN AND ARRIVAL 
+                          DJ POP AND DJ PUNKIN<small>- local</small>
                         </div>
                       </dd>
 
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">19:00PM - 21:00PM</div>
+                        <div class="schedule-time font-primary">
+                          21:00PM - 22:00PM
+                        </div>
                       </dt>
                       <dd class="col-sm-9">
                         <div class="schedule-desc">
-                        DJ POP AND DJ PUNKIN<small
-                            >- local</small
-                          >
+                          MUSA KEYS<small>- National</small>
                         </div>
                       </dd>
 
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">21:00PM - 22:00PM</div>
-                      </dt>
-                      <dd class="col-sm-9">
-                        <div class="schedule-desc">
-                          MUSA KEYS<small
-                            >- National</small
-                          >
+                        <div class="schedule-time font-primary">
+                          22:00PM -23:00
                         </div>
-                      </dd>
-
-                      <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">22:00PM -23:00</div>
                       </dt>
                       <dd class="col-sm-9">
                         <div class="schedule-desc">
@@ -907,13 +891,13 @@
                       </dd>
 
                       <dt class="col-sm-3">
-                        <div class="schedule-time font-primary">23:00PM - 00:00AM</div>
+                        <div class="schedule-time font-primary">
+                          23:00PM - 00:00AM
+                        </div>
                       </dt>
                       <dd class="col-sm-9">
                         <div class="schedule-desc">
-                   DJ SPANKY<small
-                            >- Local</small
-                          >
+                          DJ SPANKY<small>- Local</small>
                         </div>
                       </dd>
 
@@ -929,9 +913,6 @@
                               After Party<small> </small>
                             </div>
                           </div>
-                          
-
-
                         </div>
                       </dd>
                     </dl>
@@ -974,7 +955,7 @@
                       <div
                         class="pricing-price early-bird-pricing font-primary fw-bold"
                       >
-                        <span class="price-unit">&dollar;</span>39
+                        <span class="price-unit"></span>R3339
                       </div>
                       <div class="pricing-persons">
                         <select
@@ -1013,7 +994,7 @@
                       <div
                         class="pricing-price 1-day-pricing font-primary fw-bold"
                       >
-                        <span class="price-unit">&dollar;</span>29
+                        <span class="price-unit"></span>R999
                       </div>
                       <div class="pricing-persons">
                         <select
@@ -1034,7 +1015,7 @@
                       <div class="pricing-action px-5">
                         <a
                           href="#"
-                          class="button ls-1 text-uppercase fw-semibold button-large button-gradient w-100 m-0"
+                          class="button ls-1 text-uppercase fw-semibold button-large button-gradient w-100 custom-button m-0"
                           >Buy Ticket</a
                         >
                       </div>
@@ -1052,7 +1033,7 @@
                       <div
                         class="pricing-price 2-day-pricing font-primary fw-bold"
                       >
-                        <span class="price-unit">&dollar;</span>49
+                        <span class="price-unit"></span>R2949
                       </div>
                       <div class="pricing-persons">
                         <select
@@ -1073,7 +1054,7 @@
                       <div class="pricing-action px-5">
                         <a
                           href="#"
-                          class="button ls-1 text-uppercase fw-semibold button-large button-gradient w-100 m-0"
+                          class="button ls-1 text-uppercase fw-semibold button-large button-gradient w-100 custom-button m-0"
                           >Buy Ticket</a
                         >
                       </div>
@@ -1091,7 +1072,7 @@
                       <div
                         class="pricing-price full-pricing font-primary fw-bold"
                       >
-                        <span class="price-unit">&dollar;</span>69
+                        <span class="price-unit"></span>R3369
                       </div>
                       <div class="pricing-persons">
                         <select
@@ -1112,7 +1093,7 @@
                       <div class="pricing-action px-5">
                         <a
                           href="#"
-                          class="button ls-1 text-uppercase fw-semibold button-large button-gradient w-100 m-0"
+                          class="button ls-1 text-uppercase fw-semibold button-large button-gradient w-100 custom-button m-0"
                           >Buy Ticket</a
                         >
                       </div>
@@ -1132,9 +1113,9 @@
             </div>
 
             <div class="container mt-6">
-              <div class="mx-auto dark text-center" style="max-width: 850px">
+              <div class="mx-auto dark text-center" style="max-width: 800px">
                 <h3 class="display-4 gradient-text">Still Getting Confused?</h3>
-           
+
                 <a
                   href="#"
                   class="button ls-1 text-uppercase fw-semibold button-xxlarge button-white button-light button-gradient-hover mt-4"
@@ -1147,24 +1128,6 @@
 
           <div class="clear"></div>
 
-		  
-		  <div
-		  id="section-sponsors"
-		  class="section page-section bg-transparent pt-0 mt-6"
-		>
-		  <div class="container">
-			<div
-			  class="mb-5 dark d-flex justify-content-between align-items-center"
-			>
-			  <span class="display-4 fw-bold gradient-underline mb-0"
-				>Book Table</span
-			  >
-			</div>
-
-</div>
-
-          <!-- Section Sponsors
-				============================================= -->
           <div
             id="section-sponsors"
             class="section page-section bg-transparent pt-0 mt-6"
@@ -1174,186 +1137,200 @@
                 class="mb-5 dark d-flex justify-content-between align-items-center"
               >
                 <span class="display-4 fw-bold gradient-underline mb-0"
-                  >Sponsors</span
-                >
-              </div>
-
-              <div
-                class="mx-auto schedule-wrap text-center dark rounded shadow-lg"
-                style="max-width: 1050px; background-color: #000"
-              >
-                <!-- <h4 class="font-body mb-5">Gold Sponsors</h4> -->
-                <div class="d-flex flex-wrap align-items-center">
-                  <div class="flex-fill p-3">
-                    <a href="#"
-                      ><img
-                        src="demos/conference/images/sponcors/cnn.svg"
-                        alt="Brands"
-                    /></a>
-                  </div>
-                  <div class="flex-fill p-3">
-                    <a href="#"
-                      ><img
-                        src="demos/conference/images/sponcors/github.svg"
-                        alt="Brands"
-                    /></a>
-                  </div>
-                  <div class="flex-fill p-3">
-                    <a href="#"
-                      ><img
-                        src="demos/conference/images/sponcors/google.svg"
-                        alt="Brands"
-                    /></a>
-                  </div>
-                  <div class="flex-fill p-3">
-                    <a href="#"
-                      ><img
-                        src="demos/conference/images/sponcors/paypal.svg"
-                        alt="Brands"
-                    /></a>
-                  </div>
-                  <div class="flex-fill p-3">
-                    <a href="#"
-                      ><img
-                        src="demos/conference/images/sponcors/vimeo.svg"
-                        alt="Brands"
-                    /></a>
-                  </div>
-                  <div class="flex-fill p-3">
-                    <a href="#"
-                      ><img
-                        src="demos/conference/images/sponcors/slack.svg"
-                        alt="Brands"
-                    /></a>
-                  </div>
-                </div>
-               
-                <div class="line"></div>
-                <h3 class="gradient-text">
-                  Calling all Sponsors!!! Help us to make Our Event a Blast!
-                </h3>
-              
-                <a
-                  href="#"
-                  class="button ls-1 text-uppercase fw-semibold button-xlarge button-white button-gradient mt-4"
-                  >Sponsor Us?</a
+                  >Book Table</span
                 >
               </div>
             </div>
+
+            <!-- Section Sponsors
+				============================================= -->
             <div
-              class="dotted-bg"
-              style="
-                background: url('demos/conference/images/dotted-bg.svg') repeat
-                  center center / contain;
-                min-height: 25%;
-                top: 90%;
-                right: 0;
-                left: auto;
-                width: 50%;
-              "
-            ></div>
-          </div>
-          <!-- #section-Sponsors end -->
-
-          <div class="clear"></div>
-
-          <!-- Section Location
-				============================================= -->
-          <div
-            id="section-location"
-            class="section page-section bg-transparent p-0 mb-0"
-            style="overflow: visible"
-          >
-            <div class="container">
-              <div
-                class="mb-5 dark d-flex justify-content-between align-items-center"
-              >
-                <span class="display-4 fw-bold gradient-underline mb-0"
-                  >Venue</span
+              id="sponsors"
+              class="section page-section bg-transparent pt-0 mt-6"
+            >
+              <div class="container">
+                <div
+                  class="mb-5 dark d-flex justify-content-between align-items-center"
                 >
-				<div class="col-sm-3">
-					<a
-					  href="https://maps.google.com"
-					  target="_blank"
-					  class="button ls-1 text-uppercase fw-semibold button-small button-black button-dark bg-dark mt-2 mt-sm-0 float-none float-sm-right"
-					  >View Map</a
-					>
-				  </div>
-              </div>
-            </div>
+                  <span class="display-4 fw-bold gradient-underline mb-0"
+                    >Sponsors</span
+                  >
+                </div>
 
-            
-          </div>
-          <!-- #section-location end -->
-
-          <div class="clear"></div>
-
-          <!-- Upcoming Events
-				============================================= -->
-          <div class="section bg-transparent m-0">
-            <div class="container">
-              <div class="mx-auto dark text-center" style="max-width: 850px">
-                <span class="display-4 fw-bold gradient-underline"
-                  >Upcoming Related Events</span
+                <div
+                  class="mx-auto schedule-wrap text-center dark rounded shadow-lg"
+                  style="max-width: 1050px; background-color: #000"
                 >
-                
-              </div>
-              <div class="clear"></div>
-              <div class="row align-items-stretch mt-3">
-                <div class="col-md-4 mb-3">
+                  <!-- <h4 class="font-body mb-5">Gold Sponsors</h4> -->
+                  <div class="d-flex flex-wrap align-items-center">
+                    <div class="flex-fill p-3">
+                      <a href="#"
+                        ><img
+                          src="demos/conference/images/sponcors/cnn.svg"
+                          alt="Brands"
+                      /></a>
+                    </div>
+                    <div class="flex-fill p-3">
+                      <a href="#"
+                        ><img
+                          src="demos/conference/images/sponcors/github.svg"
+                          alt="Brands"
+                      /></a>
+                    </div>
+                    <div class="flex-fill p-3">
+                      <a href="#"
+                        ><img
+                          src="demos/conference/images/sponcors/google.svg"
+                          alt="Brands"
+                      /></a>
+                    </div>
+                    <div class="flex-fill p-3">
+                      <a href="#"
+                        ><img
+                          src="demos/conference/images/sponcors/paypal.svg"
+                          alt="Brands"
+                      /></a>
+                    </div>
+                    <div class="flex-fill p-3">
+                      <a href="#"
+                        ><img
+                          src="demos/conference/images/sponcors/vimeo.svg"
+                          alt="Brands"
+                      /></a>
+                    </div>
+                    <div class="flex-fill p-3">
+                      <a href="#"
+                        ><img
+                          src="demos/conference/images/sponcors/slack.svg"
+                          alt="Brands"
+                      /></a>
+                    </div>
+                  </div>
+
+                  <div class="line"></div>
+                  <h3 class="gradient-text">
+                    Calling all Sponsors!!! Help us to make Our Event a Blast!
+                  </h3>
+
                   <a
                     href="#"
-                    class="card dark"
-                    style="background-color: #fb6567"
+                    class="button ls-1 text-uppercase fw-semibold button-xlarge button-white button-gradient mt-4"
+                    >Sponsor Us?</a
                   >
-                    <div class="card-body">
-                      <h4 class="mb-4 font-body fw-normal h5">
-                        Opening Remarks And Keynote
-                      </h4>
-                      <div class="d-flex flex-wrap justify-content-between">
+                </div>
+              </div>
+              <div
+                class="dotted-bg"
+                style="
+                  background: url('demos/conference/images/dotted-bg.svg')
+                    repeat center center / contain;
+                  min-height: 25%;
+                  top: 90%;
+                  right: 0;
+                  left: auto;
+                  width: 50%;
+                "
+              ></div>
+            </div>
+            <!-- #section-Sponsors end -->
+
+            <div class="clear"></div>
+
+            <!-- Section Location
+				============================================= -->
+            <div
+              id="section-location"
+              class="section page-section bg-transparent p-0 mb-0"
+              style="overflow: visible"
+            >
+              <div class="container">
+                <div
+                  class="mb-5 dark d-flex justify-content-between align-items-center"
+                >
+                  <span class="display-4 fw-bold gradient-underline mb-0"
+                    >Venue</span
+                  >
+                  <div class="col-sm-3">
+                    <a
+                      href="https://maps.google.com"
+                      target="_blank"
+                      class="button ls-1 text-uppercase fw-semibold button-small button-black button-dark bg-dark mt-2 mt-sm-0 float-none float-sm-right"
+                      >View Map</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- #section-location end -->
+
+            <div class="clear"></div>
+
+            <!-- Upcoming Events
+				============================================= -->
+            <div class="section bg-transparent m-0">
+              <div class="container">
+                <div class="mx-auto dark text-center" style="max-width: 850px">
+                  <span class="display-4 fw-bold gradient-underline"
+                    >Upcoming Related Events</span
+                  >
+                </div>
+                <div class="clear"></div>
+                <div class="row align-items-stretch mt-3">
+                  <div class="col-md-4 mb-3">
+                    <a
+                      href="#"
+                      class="card dark"
+                      style="background-color: #ec008b"
+                    >
+                      <div class="card-body">
+                        <h4 class="mb-4 font-body fw-normal h5">
+                          Opening Remarks And Keynote
+                        </h4>
+                        <div class="d-flex flex-wrap justify-content-between">
+                          <h5 class="font-body mb-0 text-uppercase ls-1">
+                            - 31st April, 2021
+                          </h5>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <a
+                      href="#"
+                      class="card dark"
+                      style="background-color: #de5499"
+                    >
+                      <div class="card-body">
+                        <h4 class="mb-4 font-body fw-normal h5">
+                          Hiring The Right Way in Ecosystem
+                        </h4>
                         <h5 class="font-body mb-0 text-uppercase ls-1">
-                          - 31st April, 2021
+                          - 2nd May, 2021
                         </h5>
                       </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-md-4 mb-3">
-                  <a
-                    href="#"
-                    class="card dark"
-                    style="background-color: #f3317a"
-                  >
-                    <div class="card-body">
-                      <h4 class="mb-4 font-body fw-normal h5">
-                        Hiring The Right Way in Ecosystem
-                      </h4>
-                      <h5 class="font-body mb-0 text-uppercase ls-1">
-                        - 2nd May, 2021
-                      </h5>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-md-4 mb-3">
-                  <a
-                    href="#"
-                    class="card dark"
-                    style="background-color: #ec008b"
-                  >
-                    <div class="card-body">
-                      <h4 class="mb-4 font-body fw-normal h5">
-                        Why Should I Choose Support
-                      </h4>
-                      <h5 class="font-body mb-0 text-uppercase ls-1">
-                        - 3rd May, 2021
-                      </h5>
-                    </div>
-                  </a>
+                    </a>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <a
+                      href="#"
+                      class="card dark"
+                      style="background-color: #e99f4c"
+                    >
+                      <div class="card-body">
+                        <h4 class="mb-4 font-body fw-normal h5">
+                          Why Should I Choose Support
+                        </h4>
+                        <h5 class="font-body mb-0 text-uppercase ls-1">
+                          - 3rd May, 2021
+                        </h5>
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
+            <!-- #Related Events end -->
           </div>
-          <!-- #Related Events end -->
         </div>
       </section>
       <!-- #content end -->
@@ -1369,7 +1346,7 @@
             rgba(255, 255, 255, 0.1),
             rgba(255, 255, 255, 0.03)
           );
-          border-top-color: #222;
+          border-top-color: black;
         "
       >
         <div class="container">
@@ -1380,17 +1357,13 @@
               <div class="col-lg-4">
                 <div class="widget">
                   <div class="row">
-                    <div class="col-lg-8 mb-4" style="color: #888">
+                    <div class="col-lg-8 mb-4" style="color: black">
                       <img
-                        src="demos/app-landing/images/logo-dark@2x.png"
+                        src="https://assets-global.website-files.com/64242075edd6a813c8687d5c/652fc39d35f89d4e02e7cdf5_Layer%205.webp"
                         alt="Canvas Logo"
                         class="d-block"
-                        height="100"
+                        height="60"
                       />
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Odio, consequatur facere molestiae iusto atque.
-                      </p>
 
                       <a
                         href="#"
@@ -1444,9 +1417,6 @@
                         <li><a href="">Visiting Place</a></li>
                         <li><a href="">Nearby Hotels</a></li>
                         <li><a href="">Public Transports</a></li>
-                        <li><a href="">Weather Info</a></li>
-                        <li><a href="">Food Cost</a></li>
-                        <li><a href="">Accommodation </a></li>
                       </ul>
                     </div>
                   </div>
@@ -1456,24 +1426,15 @@
                         <li><a href="">Code Of Conduct</a></li>
                         <li><a href="">Speakers</a></li>
                         <li><a href="">Sponsors</a></li>
-                        <li><a href="">FAQs</a></li>
-                        <li><a href="">Volunteers</a></li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-lg-6">
                     <div id="twitter" class="widget widget-twitter-feed pt-3">
-                      <ul
-                        class="iconlist twitter-feed"
-                        data-username="envato"
-                        data-count="2"
-                        style="--cnvs-iconlist-color: #ec008b"
-                      ></ul>
-
                       <div class="d-flex justify-content-end">
                         <a
                           href="#"
-                          class="button ls-1 text-uppercase fw-semibold button-gradient text-white"
+                          class="button ls-1 text-uppercase fw-semibold button-gradient text-black"
                           >Follow Us on Twitter</a
                         >
                       </div>
@@ -1490,7 +1451,8 @@
         <div id="copyrights" class="bg-transparent pt-0">
           <div class="container">
             <div class="w-100 text-center text-md-start">
-              Copyrights &copy; 2023 All Rights Reserved by Canvas Inc.<br />
+              Copyrights &copy; 2024 All Rights Reserved by Yamukelwa &
+              Rethabile<br />
               <div class="copyright-links">
                 <a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a>
               </div>
