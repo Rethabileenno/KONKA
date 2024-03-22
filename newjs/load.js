@@ -13,7 +13,7 @@ class Countdown {
     if (this.count === 0) {
       this.stop(); // Call stop method to clear the interval
       // Open the specified HTML file after 10 seconds
-      const newWindow = window.open("signup.html", "_blank");
+      const newWindow = window.open("html/signup.html", "_blank");
       if (newWindow) {
         newWindow.onload = () => {
           window.close(); // Close the current window after opening the new one

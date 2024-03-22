@@ -59,7 +59,7 @@ class FormValidator {
       // Clear the form fields.
       this.resetForm();
       // Go to the login page.
-      window.location.href = "login.html";
+      window.location.href = "/html/login.html";
     }
   }
 
