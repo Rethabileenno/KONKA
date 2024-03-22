@@ -40,3 +40,12 @@
 .container .button:hover {
   color: black;
 }
+.d-block {
+  margin-bottom: 40px;
+}
+
+.text-center,
+.widget_links,
+.widget_links a {
+  color: black !important;
+}
