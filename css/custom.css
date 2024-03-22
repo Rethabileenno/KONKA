@@ -34,3 +34,9 @@
   font-weight: 200;
   line-height: 140px;
 }
+.custom-button {
+  color: black;
+}
+.container .button:hover {
+  color: black;
+}

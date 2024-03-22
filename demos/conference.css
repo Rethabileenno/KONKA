@@ -239,7 +239,7 @@ body,
   --bs-nav-link-color: var(--cnvs-tab-base-color);
   --bs-nav-link-padding-x: 1.5rem;
   --bs-nav-link-padding-y: 1.125rem;
-  --bs-nav-tabs-border-color: rgba(255, 255, 255, 0.1);
+  --bs-nav-tabs-border-color: none;
   --bs-nav-tabs-link-active-bg: transparent;
   --bs-nav-tabs-link-active-color: var(--bs-nav-link-color);
   --bs-nav-link-font-size: 20px;
@@ -294,7 +294,7 @@ body,
 .schedule-wrap dt:not(:nth-last-of-type(1)) + dd {
   margin-bottom: 30px;
   padding-bottom: 30px;
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+  border-bottom: 4px dashed black;
 }
 
 .schedule-time,
@@ -302,6 +302,7 @@ body,
   font-size: 20px;
   font-weight: 700;
   line-height: 1.6;
+  color: #222222;
 }
 
 #canvas-tab-alt-content {
@@ -313,6 +314,7 @@ body,
   font-size: 14px;
   opacity: 0.7;
   margin-top: 4px;
+  color: #222222;
 }
 
 .dotted-bg {
@@ -321,6 +323,7 @@ body,
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  color: black;
 }
 
 .pricing [class^="col-"] {
@@ -484,7 +487,7 @@ body,
 
 @media (max-width: 991.98px) {
   #header.transparent-header.responsive-sticky-header #header-wrap {
-    background-color: #fff;
+    background-color: white;
     border-bottom-color: rgba(255, 255, 255, 0.2);
   }
 
