@@ -82,6 +82,7 @@ class UserForm {
         "/konka.html?email=" + email + "&password=" + password,
         "_blank"
       );
+      window.close();
     } else {
       // Alert the user about invalid email or password
       alert(
