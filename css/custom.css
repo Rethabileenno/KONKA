@@ -66,3 +66,7 @@
 .copyright-links a {
   color: red;
 }
+
+.event-list{
+  padding: 10px !important;
+}

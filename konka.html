@@ -533,7 +533,7 @@
               </div>
 
               <div
-                class="schedule-wrap mx-auto rounded"
+                class="schedule-wrap mx-auto rounded event-list"
                 style="max-width: 1000px"
               >
                 <ul
@@ -934,15 +934,13 @@
                   <div class="col-lg-3 col-sm-6">
                     <div class="pricing-box disabled text-center">
                       <div class="pricing-title title-sm">
-                        <h3 class="text-transform-none ls-0">
-                          Early Bird(Full Event)
-                        </h3>
-                        <span>Valid until 28th Feb</span>
+                        <h3 class="text-transform-none ls-0">VVIP</h3>
+                        <span>Valid until 29th Dec</span>
                       </div>
                       <div
                         class="pricing-price early-bird-pricing font-primary fw-bold"
                       >
-                        <span class="price-unit"></span>R3339
+                        <span class="price-unit"></span>R7339
                       </div>
                       <div class="pricing-persons">
                         <select
@@ -975,7 +973,7 @@
                       <div class="pricing-title title-sm">
                         <h3 class="text-transform-none ls-0">1 Day Pass</h3>
                         <span class="text-transform-none"
-                          >Valid until 19th March</span
+                          >Valid until 26th Dec</span
                         >
                       </div>
                       <div
@@ -1014,7 +1012,7 @@
                       <div class="pricing-title title-sm">
                         <h3 class="text-transform-none ls-0">2 Days Pass</h3>
                         <span class="text-transform-none"
-                          >Valid until 17th March</span
+                          >Valid until 27th Dec</span
                         >
                       </div>
                       <div
@@ -1053,7 +1051,7 @@
                       <div class="pricing-title title-sm">
                         <h3 class="text-transform-none ls-0">Full Event</h3>
                         <span class="text-transform-none"
-                          >Valid until 17th March</span
+                          >Valid until 29th Dec</span
                         >
                       </div>
                       <div
@@ -1478,22 +1476,22 @@
 
         elementEarlyBird.on("change", function () {
           pricingEarlyBird = jQuery(this).prop("value");
-          jQuery(".early-bird-pricing").html("$" + pricingEarlyBird * 39);
+          jQuery(".early-bird-pricing").html("R" + pricingEarlyBird * 7339);
         });
 
         element1Day.on("change", function () {
           pricing1day = jQuery(this).prop("value");
-          jQuery(".1-day-pricing").html("$" + pricing1day * 29);
+          jQuery(".1-day-pricing").html("R" + pricing1day * 999);
         });
 
         element2Day.on("change", function () {
           pricing2Day = jQuery(this).prop("value");
-          jQuery(".2-day-pricing").html("$" + pricing2Day * 49);
+          jQuery(".2-day-pricing").html("R" + pricing2Day * 2949);
         });
 
         elementFull.on("change", function () {
           pricingFull = jQuery(this).prop("value");
-          jQuery(".full-pricing").html("$" + pricingFull * 69);
+          jQuery(".full-pricing").html("R" + pricingFull * 3369);
         });
       });
     </script>
