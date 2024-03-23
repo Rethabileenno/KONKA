@@ -34,7 +34,8 @@
 .display-4,
 .font-body,
 .text-white-50,
-.font-body1 {
+.font-body1,
+.font-body2 {
   color: black !important;
 }
 .display-4 {
