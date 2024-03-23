@@ -6,6 +6,12 @@
 -----------------------------------------------------------------*/
 
 /* menu items */
+.logo-default {
+  height: 45px !important;
+}
+.cnvs-hamburger-box {
+  background-color: black;
+}
 .menu-link {
   font-size: 19px;
   font-weight: 500;
@@ -27,13 +33,21 @@
 }
 .display-4,
 .font-body,
-.text-white-50 {
+.text-white-50,
+.font-body1,
+.font-body2 {
   color: black !important;
 }
 .display-4 {
   font-weight: 200;
-  line-height: 140px;
+  line-height: 100px;
 }
+.font-body,
+.text-white-50 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+}
+
 .custom-button {
   color: black;
 }
@@ -53,3 +67,8 @@
 .copyright-links a {
   color: red;
 }
+
+.event-list {
+  padding: 10px !important;
+}
+
