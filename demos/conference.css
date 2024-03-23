@@ -487,7 +487,7 @@ body,
 
 @media (max-width: 991.98px) {
   #header.transparent-header.responsive-sticky-header #header-wrap {
-    background-color: white;
+    background-color: #f1f0e8;
     border-bottom-color: rgba(255, 255, 255, 0.2);
   }
 
