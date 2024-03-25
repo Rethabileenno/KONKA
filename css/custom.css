@@ -72,3 +72,8 @@
   padding: 10px !important;
 }
 
+.tableimg {
+  height: 650px;
+  width: 500px;
+  border-radius: 7%;
+}
