@@ -1,6 +1,17 @@
-document.addEventListener("DOMContentLoaded", function () {
-  // Function to handle form submission
-  function handleSubmit(event) {
+class FormHandler {
+  constructor() {
+    // Bind event listeners
+    document.addEventListener("DOMContentLoaded", () => this.initialize());
+  }
+
+  initialize() {
+    // Add event listener to the submit button
+    document
+      .getElementById("tablebutton")
+      .addEventListener("click", (event) => this.handleSubmit(event));
+  }
+
+  handleSubmit(event) {
     event.preventDefault(); // Prevent default form submission
 
     // Get form values
@@ -57,9 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Show success message
     window.alert("Thank you! An agent will contact you shortly.");
   }
+}
 
-  // Add event listener to the submit button
-  document
-    .getElementById("tablebutton")
-    .addEventListener("click", handleSubmit);
-});
+// Instantiate FormHandler
+const formHandler = new FormHandler();
