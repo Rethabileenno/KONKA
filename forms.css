@@ -86,7 +86,7 @@
   }
   
   hr {
-    height: 1px;
+    height: 3px;
     background-color: #E5C7C5;
     border: none;
   }
@@ -238,3 +238,63 @@
     font-weight: 600;
     transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
   }
+
+
+  /* station */
+
+  .ticket {
+    width: 500px;
+    background-color: white;
+    border: 1px solid #c52222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    /* other styles... */
+}
+
+#ticket-station {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+.ticket-header {
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+  /* margin-bottom: 10px; */
+}
+
+:root {
+  --cnvs-color1: #F3D2C9;
+  --cnvs-color2: #E5C7C5;
+  --cnvs-color3: #ECC2C0;
+}
+button {
+  background: linear-gradient(280deg, var(--cnvs-color1) 12.08%, var(--cnvs-color2) 53.53%, var(--cnvs-color3) 95.62%);
+  color:white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.ticket h3 {
+  background-image: linear-gradient(280deg, red 12.08%, red 53.53%, red 95.62%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+}
+
+.form-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.checkout-btn {
+    display: block;
+    margin: 0 auto;
+}
