@@ -12,7 +12,7 @@
 
 # Private Files
 # Ignore various file types that may contain sensitive information
-*.json
+
 *.csv
 *.csv.gz
 *.tsv
