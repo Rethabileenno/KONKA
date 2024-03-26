@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
               // Redirect to another page after 2 seconds
               setTimeout(() => {
-                  window.location.href = 'another_page.html';
+                  window.location.href = 'konka.html';
               }, 2000);
           } else {
               // If not all inputs are filled, show an error message
