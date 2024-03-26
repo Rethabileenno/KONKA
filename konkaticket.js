@@ -103,11 +103,3 @@ let ticketStation = document.getElementById('ticket-station');
 ticketStation.innerHTML += tickets[0].generateHTML();
 ticketStation.innerHTML += tickets[1].generateHTML();
 ticketStation.innerHTML += tickets[2].generateHTML();
-
-
-
-
-
-
-
-

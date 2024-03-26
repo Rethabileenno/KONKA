@@ -35,11 +35,7 @@
 
   <body>
     <div class="form-container">
-      <img
-        class="checkimg"
-        src="images/Ticket Cinema Performance.png"
-        alt=""
-      />
+      <img class="checkimg" src="images/Ticket Cinema Performance.png" alt="" />
       <br />
       <label for=""> Date:</label>
       <label id="datePurchased"></label>
@@ -75,7 +71,12 @@
       <label id="total"></label>
       <br />
       <hr />
-      <button class="checkout-btn">Checkout</button>
+      <button
+        class="checkout-btn"
+        onclick="window.location.href = 'payment.html';"
+      >
+        Checkout
+      </button>
     </div>
 
     <script>
