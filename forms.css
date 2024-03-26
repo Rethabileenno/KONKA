@@ -172,7 +172,7 @@ hr {
 /* station */
 
 .ticket {
-  width: 500px;
+  width: 300px;
   background-color: white;
   border: 1px solid #c52222;
   display: flex;
@@ -185,7 +185,7 @@ hr {
 
 #ticket-station {
   display: flex;
-  width: 500px;
+  width: 300px;
   justify-content: space-between;
 }
 .ticket-header {
