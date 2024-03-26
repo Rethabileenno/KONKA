@@ -13,7 +13,10 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/forms.css" />
+    <link rel="stylesheet" href="forms.css">
+
+   
+
 
     <!-- Core Style -->
     <link rel="stylesheet" href="style.css" />
@@ -33,198 +36,92 @@
     <title>KONKA MOTSWAKO WEEKEND</title>
   </head>
 
-  <body class="stretched">
-    <!-- Document Wrapper
-	============================================= -->
-    <div id="wrapper">
-      <!-- Header
-		============================================= -->
-      <header
-        id="header"
-        class="responsive-sticky-header transparent-header dark header-size-sm"
-        data-sticky-shrink="false"
-      >
-        <div id="header-wrap">
-          <div class="container">
-            <div class="header-row justify-content-lg-between">
-              <div class="primary-menu-trigger">
-                <button
-                  class="cnvs-hamburger"
-                  type="button"
-                  title="Open Mobile Menu"
-                >
-                  <span class="cnvs-hamburger-box"
-                    ><span class="cnvs-hamburger-inner"></span
-                  ></span>
-                </button>
-              </div>
 
-              <!-- Primary Navigation
-						============================================= -->
-              <nav class="primary-menu">
-                <ul
-                  class="menu-container one-page-menu"
-                  data-easing="easeInOutExpo"
-                  data-speed="1250"
-                  data-offset="160"
-                >
-                  <li class="menu-item">
-                    <a
-                      class="menu-link ls-1 text-uppercase"
-                      href="#konka.html"
-                      data-href="#section-about"
-                      ><div>HOME</div></a
-                    >
-                  </li>
-                  <li class="menu-item">
-                    <a
-                      class="menu-link ls-1 text-uppercase"
-                      href="#"
-                      data-href="#section-speakers"
-                      ><div>EVENTS</div></a
-                    >
-                  </li>
-                  <li class="menu-item">
-                    <a
-                      class="menu-link ls-1 text-uppercase"
-                      href="#"
-                      data-href="#section-schedule"
-                      ><div>BOOK TABLE</div></a
-                    >
-                  </li>
-                  <li class="menu-item">
-                    <a
-                      class="menu-link ls-1 text-uppercase"
-                      href="#"
-                      data-href="#section-tickets"
-                      ><div>HIGHLIGHTS</div></a
-                    >
-                  </li>
-                  <li class="menu-item">
-                    <a
-                      class="menu-link ls-1 text-uppercase"
-                      href="#"
-                      data-href="#section-sponsors"
-                      ><div>Sponsors</div></a
-                    >
-                  </li>
-                  <li class="menu-item">
-                    <a
-                      class="menu-link ls-1 text-uppercase"
-                      href="#"
-                      data-href="#section-location"
-                      ><div>Location</div></a
-                    >
-                  </li>
-                </ul>
-              </nav>
-              <!-- #primary-menu end -->
+  <body >
 
-              <!-- Primary Navigation
-						============================================= -->
-              <nav class="primary-menu">
-                <ul class="menu-container header-button">
-                  <li class="menu-item">
-                    <a
-                      href="#section-tickets"
-                      class="button ls-1 text-uppercase fw-semibold button-effect m-0"
-                      data-class="down-lg:px-1"
-                      data-scrollto="#section-tickets"
-                      >Buy Tickets</a
-                    >
-                  </li>
-                </ul>
-              </nav>
-              <!-- #primary-menu end -->
-            </div>
-          </div>
-        </div>
-        <div class="header-wrap-clone"></div>
-      </header>
-      <!-- #header end -->
+  
+      
+ 
+                       
+  
+<div class="form-container">
+        <img src="https://st2.depositphotos.com/4215343/6595/i/950/depositphotos_65955205-stock-photo-orange-admission-tickets.jpg" alt="" width="200px" height="200px">
+<br>
+  <label for=""> Date:</label>
+  <label id="datePurchased"></label>
+  <br>
+  <label for=""> Time: </label>
+  <label id="time"></label>
+  <br>
+  <hr>
+  <label for=""> Ticket no: </label>
+  <label id="ticketNumber"></label>
+  <br>
+  <br>
+  <label for="">Ticket type:</label>
+  <label id="ticketType"></label>
+  <br>
+  <br>
+  <label for="">Number of people: </label>
+  <label  id="numberOfPeople"></label>
+  <br>
+  <br>
+  <label for="">Price:</label>
+  <label id="ticketPrice"> </label>
+  <br>
+  <hr>
+  <label for="">Subtotal:</label>
+  <label id="subtotal"></label>
+  <br>
+  <label for="">Tax (5%):</label>
+  <label id="tax"></label>
+  <br>
+  <br>
+  <label for="">Total:</label>
+  <label id="total"></label>
+  <br>
+  <hr>
+  <button class="checkout-btn">Checkout</button>
+</div>
+    
 
-      <div
-        class="container"
-        style="
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          height: 100vh;
-        "
-      >
-        <section>
-          <div class="container">
-            <div class="card cart">
-              <label class="title">CHECKOUT</label>
-              <div class="steps">
-                <div class="step">
-                  <div>
-                    <!-- <span>SHIPPING</span> -->
-                    <img
-                      src="https://st2.depositphotos.com/4215343/6595/i/950/depositphotos_65955205-stock-photo-orange-admission-tickets.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <hr />
-                  <div>
-                    <span>Ticked Purchased</span>
-                    <!-- <p>Visa</p>
-                        <p>**** **** **** 4243</p> -->
-                  </div>
-                  <hr />
-                  <div class="promo">
-                    <span>HAVE A PROMO CODE?</span>
-                    <form class="form">
-                      <input
-                        class="input_field"
-                        placeholder="Enter a Promo Code"
-                        type="text"
-                      />
-                      <button>Apply</button>
-                    </form>
-                  </div>
-                  <hr />
-                  <div class="payments">
-                    <span>PAYMENT</span>
-                    <div class="details">
-                      <span>Subtotal:</span>
-                      <span><label for="Subtotal"></label></span>
-                      <span>Shipping:</span>
-                      <span><label for="shopping"></label></span>
-                      <span>Tax:</span>
-                      <span><label for="Tax"></label></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+    
+<script>
+// This function will run when the page is fully loaded
+window.onload = function() {
+    // Retrieve the ticket details from local storage and parse it from JSON to a JavaScript object
+    let ticketDetails = JSON.parse(localStorage.getItem('ticketDetails'));
 
-            <div class="card checkout">
-              <div class="footer">
-                <label class="price"> </label>
-                <button class="checkout-btn">Checkout</button>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
+    // If ticketDetails is not null or undefined
+    if (ticketDetails) {
+        // Set the text content of the elements with the corresponding IDs to the values from ticketDetails
+        document.getElementById('datePurchased').textContent = ticketDetails.datePurchased;
+        document.getElementById('ticketNumber').textContent = ticketDetails.ticketNumber;
+        document.getElementById('ticketType').textContent = ticketDetails.ticketType;
+        document.getElementById('ticketPrice').textContent = ticketDetails.ticketPrice;
+        document.getElementById('numberOfPeople').textContent = ticketDetails.numberOfPeople;
+        document.getElementById('time').textContent = ticketDetails.time;
 
-      <br />
+        // Calculate the subtotal by parsing the ticket price to a float
+        let subtotal = parseFloat(ticketDetails.ticketPrice);
+        // Calculate the tax as 5% of the subtotal
+        let tax = subtotal * 0.05;
+        // Calculate the total as the subtotal plus the tax
+        let total = subtotal + tax;
 
-      <!-- Copyrights
-			============================================= -->
-      <div id="copyrights" class="bg-transparent pt-0">
-        <div class="container">
-          <div class="w-100 text-center text-md-start">
-            Copyrights &copy; 2024 All Rights Reserved by Yamukelwa &
-            Rethabile<br />
-            <div class="copyright-links">
-              <a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        // Set the text content of the elements with the corresponding IDs to the calculated values
+        // The toFixed(2) method is used to round the values to 2 decimal places
+        document.getElementById('subtotal').textContent = `R: ${subtotal.toFixed(2)}`;
+        document.getElementById('tax').textContent = `R: ${tax.toFixed(2)}`;
+        document.getElementById('total').textContent = `R: ${total.toFixed(2)}`;
+    }
+}
+
+
+  </script>
+
+
+
 
     <!-- Go To Top
 	============================================= -->
@@ -233,13 +130,22 @@
     <!-- JavaScripts
 	============================================= -->
     <script src="js/jquery.js"></script>
-    <script src="js/functions.js"></script>
+
+     <!-- <script src="js/functions.js"></script>  -->
+
 
     <!-- Parallax Script
 	============================================= -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
     <script>
-      !SEMICOLON.Mobile.any() && skrollr.init({ forceHeight: false });
+
+      if (!window.matchMedia("only screen and (max-width: 760px)").matches) {
+    skrollr.init({ forceHeight: false });
+}
+      // !SEMICOLON.Mobile.any() && skrollr.init({ forceHeight: false });
     </script>
+
+    
+
   </body>
 </html>
