@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
               this.form.reset();
 
               // Show a pop-up message
-              alert('Thank you! Your invoice will be loaded in a bit.');
+              alert('Thank you! Your invoice will be loaded by KONKA & sent directly to your mail!.');
 
               // Redirect to another page after 2 seconds
               setTimeout(() => {
