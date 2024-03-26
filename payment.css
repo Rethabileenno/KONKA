@@ -7,20 +7,28 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Ensures the container takes up the full height of the viewport */
+  height: 90vh; /* Ensures the container takes up the full height of the viewport */
 }
 
 .add-card {
   width: 320px;
 }
 
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 44px;
+
+}
+
 .form {
   background: #eddcd9;
   border: 2px solid #264143;
   box-shadow: 5px 5px 0px 2px #e99f4c;
-  width: 100%; /* Take full width of parent container */
+  width: 100%;
   max-width: 320px; /* Limit width to 320px */
-  padding: 20px;
+  padding: 30px 20px; /* Adjusted padding */
   border-radius: 25px;
 }
 
@@ -94,4 +102,7 @@ body {
 }
 .form .checkout-btn:hover {
   color: black;
+}
+.red-letter {
+  color: red;
 }
