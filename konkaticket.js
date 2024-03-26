@@ -111,21 +111,21 @@ let tickets = [
   new Ticket(
     "Free Pass",
     0,
-    "25th Dec",
+    "26th Dec",
     ["1", "2", "3", "4", "5", "6", "7", "8"],
     0
   ),
   new Ticket(
     "Day1 Pass",
     150,
-    "26th Dec",
+    "27th Dec",
     ["1", "2", "3", "4", "5", "6", "7", "8"],
     0
   ),
   new Ticket(
     "Day2 Pass",
     250,
-    "27th Dec",
+    "28th Dec",
     ["1", "2", "3", "4", "5", "6", "7", "8"],
     1
   ),
