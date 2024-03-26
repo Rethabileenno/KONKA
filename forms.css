@@ -1,9 +1,6 @@
-/* Css for book table */
-
 /* Css for checkout  */
-
 /* Body */
-.container {
+/* .container {
   display: grid;
   grid-template-columns: auto;
   gap: 0px;
@@ -34,6 +31,13 @@ hr {
   font-weight: 700;
   font-size: 11px;
   color: #000000;
+} */
+
+.checkimg {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 400px;
+  height: 300px;
 }
 
 /* Cart */

@@ -13,10 +13,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="forms.css">
-
-   
-
+    <link rel="stylesheet" href="forms.css" />
 
     <!-- Core Style -->
     <link rel="stylesheet" href="style.css" />
@@ -36,92 +33,91 @@
     <title>KONKA MOTSWAKO WEEKEND</title>
   </head>
 
+  <body>
+    <div class="form-container">
+      <img
+        class="checkimg"
+        src="images/Ticket Cinema Performance.png"
+        alt=""
+      />
+      <br />
+      <label for=""> Date:</label>
+      <label id="datePurchased"></label>
+      <br />
+      <label for=""> Time: </label>
+      <label id="time"></label>
+      <br />
+      <hr />
+      <label for=""> Ticket no: </label>
+      <label id="ticketNumber"></label>
+      <br />
+      <br />
+      <label for="">Ticket type:</label>
+      <label id="ticketType"></label>
+      <br />
+      <br />
+      <label for="">Number of people: </label>
+      <label id="numberOfPeople"></label>
+      <br />
+      <br />
+      <label for="">Price:</label>
+      <label id="ticketPrice"> </label>
+      <br />
+      <hr />
+      <label for="">Subtotal:</label>
+      <label id="subtotal"></label>
+      <br />
+      <label for="">Tax (5%):</label>
+      <label id="tax"></label>
+      <br />
+      <br />
+      <label for="">Total:</label>
+      <label id="total"></label>
+      <br />
+      <hr />
+      <button class="checkout-btn">Checkout</button>
+    </div>
 
-  <body >
+    <script>
+      // This function will run when the page is fully loaded
+      window.onload = function () {
+        // Retrieve the ticket details from local storage and parse it from JSON to a JavaScript object
+        let ticketDetails = JSON.parse(localStorage.getItem("ticketDetails"));
 
-  
-      
- 
-                       
-  
-<div class="form-container">
-        <img src="https://st2.depositphotos.com/4215343/6595/i/950/depositphotos_65955205-stock-photo-orange-admission-tickets.jpg" alt="" width="200px" height="200px">
-<br>
-  <label for=""> Date:</label>
-  <label id="datePurchased"></label>
-  <br>
-  <label for=""> Time: </label>
-  <label id="time"></label>
-  <br>
-  <hr>
-  <label for=""> Ticket no: </label>
-  <label id="ticketNumber"></label>
-  <br>
-  <br>
-  <label for="">Ticket type:</label>
-  <label id="ticketType"></label>
-  <br>
-  <br>
-  <label for="">Number of people: </label>
-  <label  id="numberOfPeople"></label>
-  <br>
-  <br>
-  <label for="">Price:</label>
-  <label id="ticketPrice"> </label>
-  <br>
-  <hr>
-  <label for="">Subtotal:</label>
-  <label id="subtotal"></label>
-  <br>
-  <label for="">Tax (5%):</label>
-  <label id="tax"></label>
-  <br>
-  <br>
-  <label for="">Total:</label>
-  <label id="total"></label>
-  <br>
-  <hr>
-  <button class="checkout-btn">Checkout</button>
-</div>
-    
+        // If ticketDetails is not null or undefined
+        if (ticketDetails) {
+          // Set the text content of the elements with the corresponding IDs to the values from ticketDetails
+          document.getElementById("datePurchased").textContent =
+            ticketDetails.datePurchased;
+          document.getElementById("ticketNumber").textContent =
+            ticketDetails.ticketNumber;
+          document.getElementById("ticketType").textContent =
+            ticketDetails.ticketType;
+          document.getElementById("ticketPrice").textContent =
+            ticketDetails.ticketPrice;
+          document.getElementById("numberOfPeople").textContent =
+            ticketDetails.numberOfPeople;
+          document.getElementById("time").textContent = ticketDetails.time;
 
-    
-<script>
-// This function will run when the page is fully loaded
-window.onload = function() {
-    // Retrieve the ticket details from local storage and parse it from JSON to a JavaScript object
-    let ticketDetails = JSON.parse(localStorage.getItem('ticketDetails'));
+          // Calculate the subtotal by parsing the ticket price to a float
+          let subtotal = parseFloat(ticketDetails.ticketPrice);
+          // Calculate the tax as 5% of the subtotal
+          let tax = subtotal * 0.05;
+          // Calculate the total as the subtotal plus the tax
+          let total = subtotal + tax;
 
-    // If ticketDetails is not null or undefined
-    if (ticketDetails) {
-        // Set the text content of the elements with the corresponding IDs to the values from ticketDetails
-        document.getElementById('datePurchased').textContent = ticketDetails.datePurchased;
-        document.getElementById('ticketNumber').textContent = ticketDetails.ticketNumber;
-        document.getElementById('ticketType').textContent = ticketDetails.ticketType;
-        document.getElementById('ticketPrice').textContent = ticketDetails.ticketPrice;
-        document.getElementById('numberOfPeople').textContent = ticketDetails.numberOfPeople;
-        document.getElementById('time').textContent = ticketDetails.time;
-
-        // Calculate the subtotal by parsing the ticket price to a float
-        let subtotal = parseFloat(ticketDetails.ticketPrice);
-        // Calculate the tax as 5% of the subtotal
-        let tax = subtotal * 0.05;
-        // Calculate the total as the subtotal plus the tax
-        let total = subtotal + tax;
-
-        // Set the text content of the elements with the corresponding IDs to the calculated values
-        // The toFixed(2) method is used to round the values to 2 decimal places
-        document.getElementById('subtotal').textContent = `R: ${subtotal.toFixed(2)}`;
-        document.getElementById('tax').textContent = `R: ${tax.toFixed(2)}`;
-        document.getElementById('total').textContent = `R: ${total.toFixed(2)}`;
-    }
-}
-
-
-  </script>
-
-
-
+          // Set the text content of the elements with the corresponding IDs to the calculated values
+          // The toFixed(2) method is used to round the values to 2 decimal places
+          document.getElementById(
+            "subtotal"
+          ).textContent = `R: ${subtotal.toFixed(2)}`;
+          document.getElementById("tax").textContent = `R: ${tax.toFixed(2)}`;
+          document.getElementById("total").textContent = `R: ${total.toFixed(
+            2
+          )}`;
+        }
+      };
+    </script>
 
     <!-- Go To Top
 	============================================= -->
@@ -131,21 +127,16 @@ window.onload = function() {
 	============================================= -->
     <script src="js/jquery.js"></script>
 
-     <!-- <script src="js/functions.js"></script>  -->
-
+    <!-- <script src="js/functions.js"></script>  -->
 
     <!-- Parallax Script
 	============================================= -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
     <script>
-
       if (!window.matchMedia("only screen and (max-width: 760px)").matches) {
-    skrollr.init({ forceHeight: false });
-}
+        skrollr.init({ forceHeight: false });
+      }
       // !SEMICOLON.Mobile.any() && skrollr.init({ forceHeight: false });
     </script>
-
-    
-
   </body>
 </html>
