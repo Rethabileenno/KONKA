@@ -72,3 +72,22 @@
   padding: 10px !important;
 }
 
+.tableimg {
+  height: 650px;
+  width: 500px;
+  border-radius: 7%;
+}
+
+/* table butto */
+.btn {
+  color: black;
+}
+
+.title {
+  font-size: 21px;
+  text-align: center;
+}
+
+.error {
+  border: 1px solid red;
+}
