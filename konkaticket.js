@@ -115,34 +115,36 @@ let tickets = [
     ["1", "2", "3", "4", "5", "6", "7", "8"],
     0
   ),
+
   new Ticket(
     "Day1 Pass",
     150,
     "27th Dec",
     ["1", "2", "3", "4", "5", "6", "7", "8"],
-    0
+    1
   ),
   new Ticket(
     "Day2 Pass",
     250,
     "28th Dec",
     ["1", "2", "3", "4", "5", "6", "7", "8"],
-    1
+    2
   ),
   new Ticket(
     "Full Event Pass",
     550,
     "29th Dec",
     ["1", "2", "3", "4", "5", "6", "7", "8"],
-    2
+    3
   ),
+
 ];
 
 // Get the ticket station element
 let ticketStation = document.getElementById("ticket-station");
 
 // Add the HTML for the tickets to the ticket station
-ticketStation.innerHTML += tickets[0].generateHTML();
+ ticketStation.innerHTML += tickets[0].generateHTML();
 ticketStation.innerHTML += tickets[1].generateHTML();
 ticketStation.innerHTML += tickets[2].generateHTML();
 ticketStation.innerHTML += tickets[3].generateHTML();
